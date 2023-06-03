@@ -1,4 +1,4 @@
-.hamburgur-menu .menu, .card-overlay, .card-img {
+.h-menu .menu, .card-overlay, .card-img {
     width: 100%;
     height: 100%; }
   
@@ -58,16 +58,16 @@
   .checkbox:checked ~ .navbar-navigation .navbar-navigation-right {
     right: 0; }
   
-  .checkbox:checked ~ .hamburgur-menu .menu {
+  .checkbox:checked ~ .h-menu .menu {
     transform: rotateZ(90deg); }
   
-  .checkbox:checked ~ .hamburgur-menu .menu-line-1 {
+  .checkbox:checked ~ .h-menu .menu-line-1 {
     transform: rotateZ(-40deg); }
   
-  .checkbox:checked ~ .hamburgur-menu .menu-line-2 {
+  .checkbox:checked ~ .h-menu .menu-line-2 {
     opacity: 0; }
   
-  .checkbox:checked ~ .hamburgur-menu .menu-line-3 {
+  .checkbox:checked ~ .h-menu .menu-line-3 {
     transform: rotateZ(40deg); }
   
   .header {
@@ -216,7 +216,7 @@
         .footer-copyright-paragraph {
           font-size: 14px; } }
   
-  .hamburgur-menu {
+  .h-menu {
     width: 40px;
     height: 40px;
     position: fixed;
@@ -224,34 +224,34 @@
     right: 5%;
     z-index: 300; }
     @media (max-width: 800px) {
-      .hamburgur-menu {
+      .h-menu {
         height: 35px;
         width: 35px; } }
     @media (max-width: 500px) {
-      .hamburgur-menu {
+      .h-menu {
         height: 25px;
         width: 25px; } }
-    .hamburgur-menu .menu {
+    .h-menu .menu {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       cursor: pointer;
       transition: transform .5s; }
-      .hamburgur-menu .menu-line {
+      .h-menu .menu-line {
         width: 100%;
         height: 4px;
         background-color: #d4ab55;
         transform-origin: right;
         transition: all .5s .5s; }
         @media (max-width: 800px) {
-          .hamburgur-menu .menu-line {
+          .h-menu .menu-line {
             height: 3px; } }
         @media (max-width: 500px) {
-          .hamburgur-menu .menu-line {
+          .h-menu .menu-line {
             height: 2px; } }
   
   .logo {
-    font-size: 70px;
+    font-size: 60px;
     color: #d4ab55;
     width: 110px;
     height: 110px;
@@ -303,7 +303,7 @@
         text-align: center; } }
   
   .main-heading {
-    font-family: "Dancing Script", cursive;
+    font-family:'Trebuchet MS', cursive;
     font-size: 100px;
     font-weight: 300;
     color: #d4ab55;
